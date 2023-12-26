@@ -1,7 +1,9 @@
 # GitFlow
 Research about Git Flow and note in Readme.md 
 Git Flow
+
 *** Branch
+
  - When developing, the branch develops independently. When testing is completed, it will be 
  merged into the main branch
  - main/master represents the most stable version.
@@ -14,15 +16,20 @@ Git Flow
      + /release
      + /hotfix
      + /support
+    
 *** Commit
+
  - Record changes in the project.
  - Each commit is usually related to a specific feature, bug fix or improvement.
-* Push
+
+*** Push
  - Upload commits from local machine to repository.
  - When a feature or bug fix has been tested and completed, developers often push to share it with teammates.
+   
 *** Pull (pull to computer then merge)
  - Fetch changes from remote repository to local machine.
 - To ensure the local machine is always up to date with the latest changes on the repository, especially before starting a new feature or bug fix.
+  
 *** Merge
  - Merge changes from one branch into another branch.
  - Conflict (editing the same file will cause conflict)
